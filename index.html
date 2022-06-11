@@ -1,9 +1,246 @@
-<iframe src="https://codepen.io/bajpaik/full/dydQpBV"></iframe>
+<!DOCTYPE html>
+<html>
+  <style>
+    div
+{
+    border-radius: 5px;
+    }
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
 
-<style>
-  iframe {
-  transform: scale(0.5, 0.5);
-  height: 1000px;
-  width: 1000px;
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
 }
-</style>
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    }
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
+  </style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<html>
+ <head>
+<link type="text/css" rel="stylesheet" href="https://www.dropbox.com/s/trsldt0me90jzs8/resume.css"/>
+<title></title> 
+</head>
+<body>
+<div id="header">
+<p id="name">Kush Bajpai</p>
+         <a href="mailto:bajpai.kush@gmail.com" target="_blank"><p id="email">bajpai.kush@gmail.com</p></a>
+     </div>
+     <div class="left">
+     </div>
+     <div class="right">
+            <h3>CV Highlights</h3>
+            <p>
+             I'm a ServiceNow professional and hold 5+ years of experience in undertaking implementation projects related to PPM, ITSM, HRSD, Application Development, Agent Workspace, NLU, Service Portal, and Integrations.
+            <br>
+            <h3>Professional Experience</h3>
+            <h4 id="company-name">1E Ltd</h4>
+            <p id="job-title"><strong>Sr. Software Engineer - ServiceNow</strong></p>
+            <p id="job-responsibilities">Job Responsbilities</p>
+            <p>
+            <ul>
+                <li>Develop custom ServiceNow applications that integrate with 1E products (1E Tachyon, 1E Shopping, etc)</li>
+                <li>Perform POC's and showcase it to engineering department</li>
+                <li>Create HIW's (How it works) document on Confluence and publish the app ServiceNow Appstore </li>
+                <li>Contribute ideas to the team on how customers can be delighted</li></ul>
+            </p>
+           <h4 id="company-name">Unifii Ltd</h4>
+            <p id="job-title"><strong>Consultant</strong></p>
+            <p id="job-responsibilities">Job Responsbilities</p>
+            <p>
+            <ul>
+                <li>Carried out 3 ITSM implementation projects</li>
+                <li>Developed Service Portal Widgets and implemented PPM and HRSD for 2 customers</li>
+                <li>Handled multiple projects via Managed Services.</li>
+                <li>Provide mentoring to peers, colleagues, and partners. </li></ul>
+            </p>
+           <h4 id="company-name">HCL Technologies</h4>
+            <p id="job-title"><strong>Analyst</strong></p>
+            <p id="job-responsibilities">Job Responsbilities</p>
+            <p>
+            <ul>
+                <li>Managed ITSM module in ServiceNow. As a part of the support project, working on a domain separated instance, resolving incidents, both with bug fixes and enhancements.</li>
+                <li>Participate as a technical consultant at project meetings. Present technical status and issues at milestone reviews.</li>
+            </ul>
+            </p>
+            <h3>Educational Qualifications</h3>
+            <table>
+                <tr id="heading">
+                    <td>Qualification</td>
+                    <td>Board</td>
+                    <td>Percentage</td>
+                    <td>Year</td>
+               
+                </tr>
+                <tr>
+                    <td>Bachelor of Technology (Electrical Engineering)</td>
+                    <td>Integral University, Lucknow</td>
+                    <td>65.01%</td>
+                    <td>2015</td>
+                </tr>
+        
+                <tr>
+                    <td>S.S.C</td>
+                    <td>C.B.S.E</td>
+                    <td>56.4%</td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td>H.S.C (Science Stream)</td>
+                    <td>C.B.S.E</td>
+                    <td>60.2%</td>
+                    <td>2008</td>
+                </tr>
+               
+              
+            
+            </table>
+            <h3>ServiceNow Certifications</h3>
+            <p>
+            <ul>
+                <li>
+                <span id="course-name">Certified Implementation Specialist</span> – Project Portfolio Management</li>
+                <li>
+                <span id="course-name">Certified Implementation Specialist </span> - IT Service Management</li>
+                <li>
+                <span id="course-name">Certified System Administrator </span> </li>
+                
+            </ul>
+            <h3>My TechStack</h3>
+            <p>
+            <ul>
+                <li>
+                <span id="course-name">Application Software:</span> ServiceNow</li>
+                <li>
+                <span id="course-name">Programming Skills:</span> JavaScript (ES5 &6), React.js, Jelly (ServiceNow Specific), AngularJS, jQuery, Node.js, Lodash/Underscore, Git, Bootstrap, and HTML5/CSS.</li></ul>
+            </p>
+            
+            <h3>Personal Information:</h3>
+            <p>
+            <ul>
+                <li>
+                I would be thrilled to take up any challenging work that closely matches my skill sets and hence, like to learn more about any exciting opportunity available. 
+                I can be reached at any time between 8 AM - 11 PM (IST) on my cellphone and via email.
+                <li>
+                <span id="course-name">Languages Known:</span>English and Hindi</li>
+               
+            </p>
+            
+     </div>
+     <div id="footer"></div>
+    </body>
+</html>
+</body>
+</html>
